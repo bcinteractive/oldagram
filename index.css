@@ -55,6 +55,11 @@ main {
     padding: 10px;
 }
 
+.icon:hover {
+  background: #ff0054;
+  border-radius: 50%;
+}
+
 p {
     margin: 0;
     margin-bottom: 10px;
