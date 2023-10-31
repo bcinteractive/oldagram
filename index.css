@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#logo-img {
+    width: 127px;
+}
+
+#user-avatar {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+}
+
+main {
+    border-top: 0.5px solid #252525;
+    padding-bottom: 16px;
+}
+
+#post-info-container {
+    display: flex;
+    column-gap: 10px;
+    padding: 10px;
+}
+
+#post-avatar-el {
+    width: 34px;
+    border-radius: 50%;
+}
+
+#post-name {
+    font-weight: 700;
+}
+
+#main-post-el {
+    width: 375px;
+}
+
+.icon {
+    width: 23px;
+    padding: 10px;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.bold {
+    font-weight: 700;
+}
